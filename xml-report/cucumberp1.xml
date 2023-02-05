@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="162.362">
+    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratır" name="TC03 Kullanici Parametreli method ile Nutella aratır" time="47.926">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
+And arama sonuclarinin "Nutella" icerdigini test eder.......................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratır" name="TC05 Kullanıcı Parametreli method ile Samsung aratır" time="11.239">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Samsung" yazip aratir...........................passed
+And arama sonuclarinin "Samsung" icerdigini test eder.......................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC06 Kullanici amazon sitesine gidisi test eder" time="37.494">
+        <system-out><![CDATA[Given kullanici "amazonUrl" anasayfaya gider................................passed
+Then url de "amazon" oldugunu test eder.....................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC07 Kullanici wisequarter sitesine gidisi test eder" time="41.844">
+        <system-out><![CDATA[Given kullanici "wqUrl" anasayfaya gider....................................passed
+Then url de "wisequarter" oldugunu test eder................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici configuration.properties'de yazilan datalari parametre olarak kullanir" name="TC08 Kullanici walmart sitesine gidisi test eder" time="23.672">
+        <system-out><![CDATA[Given kullanici "walmartUrl" anasayfaya gider...............................passed
+Then url de "walmart" oldugunu test eder....................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

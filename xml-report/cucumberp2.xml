@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="75.983">
+    <testcase classname="US1003 Kullanici parametre olarak girilen degerleri aratır" name="TC04 Kullanıcı Parametreli method ile Java aratır" time="16.963">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Java" yazip aratir..............................passed
+And arama sonuclarinin "Java" icerdigini test eder..........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici oretak adımlar icin Background kullanır" name="TC03 Kullanici Parametreli method ile Nutella aratır" time="25.53">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Nutella" yazip aratir...........................passed
+And arama sonuclarinin "Nutella" icerdigini test eder.......................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici oretak adımlar icin Background kullanır" name="TC04 Kullanıcı Parametreli method ile Java aratır" time="24.698">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Java" yazip aratir..............................passed
+And arama sonuclarinin "Java" icerdigini test eder..........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US1005 Kullanici oretak adımlar icin Background kullanır" name="TC05 Kullanıcı Parametreli method ile Samsung aratır" time="8.595">
+        <system-out><![CDATA[Given kullanici amazon anasayfaya gider.....................................passed
+Then amazon arama kutusuna "Samsung" yazip aratir...........................passed
+And arama sonuclarinin "Samsung" icerdigini test eder.......................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
